@@ -21,10 +21,6 @@
         your character info as a .json file for use on other devices.
       </section>
       <section class="info">
-        Currently, it's like a demo version; in the near future, I will add all item 
-        images and complete testing. However, you can already use it for your games!
-      </section>
-      <section class="info">
         If you notice any bugs or have ideas to update the app, please contact me.
       </section>
       <section class="info centered">
