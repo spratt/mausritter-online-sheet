@@ -43,7 +43,12 @@
           class="link"
           href="https://brightsdays.github.io/"
           target="_blank"
-        >brightsdays</a>
+        >brightsdays</a><br>
+        Extended by <a
+          class="link"
+          href="https://blog.pr4tt.com"
+          target="_blank"
+        >Simon Pratt</a>
       </section>
     </template>
   </PopupLayout>
