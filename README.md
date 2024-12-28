@@ -1,5 +1,7 @@
 # Mausritter online character-sheet
 
+https://blog.pr4tt.com/mausritter-online-sheet
+
 Mausritter is a sword-and-whiskers role-playing game by [Losing Games](https://losing.games/) that's quick, easy, and great for beginners. Step into the shoes of courageous mice and embark on adventures in a world filled with peril. Check out the game rules at [mausritter.com](https://mausritter.com).
 
 ## Why use this application?
@@ -46,4 +48,4 @@ Here you can find controls and lists of game items and conditions.
 
 Enjoy your games!
 
-If you encounter bugs or have ideas to improve the app, contact me at: [brightsdays](https://brightsdays.github.io/contacts).
+If you encounter bugs or have ideas to improve the app, create an [issue](https://github.com/spratt/mausritter-online-sheet/issues).
