@@ -16,6 +16,8 @@
 </template>
 
 <script setup lang="ts">
+import { ref } from 'vue'
+
 import createHireling from '../../composables/createSimpleCard'
 import { useCharacterStore } from '../../store/character'
 import PopupLayout from './PopupLayout.vue'
@@ -29,7 +31,7 @@ const hirelingList = [
   'Torchbearer', 'Labourer', 'Tunnel digger', 'Blacksmith', 'Local guide',
   'Mouse-at-arms', 'Scholar', 'Knight', 'Interpreter'
 ]
-const hireling = $ref(hirelingList[0])
+const hireling = ref(hirelingList[0])
 
 const saveHireling = (hirelingName: string) => {
   characterStore.addHireling(createHireling(`Hireling: ${hirelingName}`))

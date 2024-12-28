@@ -23,6 +23,8 @@
 </template>
 
 <script setup lang="ts">
+import { ref } from 'vue'
+
 import UiSelectList from './UiSelectList.vue'
 
 const {
@@ -39,17 +41,17 @@ const {
 
 const emit = defineEmits(['update:modelValue'])
 
-let showOptions = $ref(false)
-let selectedOption = $ref(options[0])
+let showOptions = ref(false)
+let selectedOption = ref(options[0])
 
 const clickHandler = () => {
   const list = document.querySelector('#select-list')
-  showOptions = !list ? true : false
+  showOptions.value = !list ? true : false
 }
 
 const selectHandler = (option: string) => {
-  selectedOption = option
-  showOptions = false
+  selectedOption.value = option
+  showOptions.value = false
   emit('update:modelValue', option)
 }
 </script>

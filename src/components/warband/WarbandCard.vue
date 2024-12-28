@@ -61,6 +61,8 @@
 </template>
 
 <script setup lang="ts">
+import { toRef } from 'vue'
+
 import { useCharacterStore } from '../../store/character'
 import { ChangeStatEvent } from '../../types/character'
 import CharStats from '../character/CharStats.vue'
@@ -69,12 +71,13 @@ import { usePopupStore } from '../../store/popup'
 import UiDrop from '../ui/UiDrop.vue'
 import UiButton from '../ui/UiButton.vue'
 
-const { warband } = $(useCharacterStore())
+const __$temp_1 = (useCharacterStore()),
+  warband = toRef(__$temp_1, 'warband');
 const characterStore = useCharacterStore()
 const popupStore = usePopupStore()
 
 const growStat = (event: ChangeStatEvent) => {
-  const target = warband?.stats[event.stat]
+  const target = warband.value?.stats[event.stat]
 
   if (target && target.current < event.maxValue) {
     characterStore.setWarbandStat(event.stat, +target.current + 1)
@@ -82,7 +85,7 @@ const growStat = (event: ChangeStatEvent) => {
 }
 
 const downStat = (event: ChangeStatEvent) => {
-  const target = warband?.stats[event.stat]
+  const target = warband.value?.stats[event.stat]
   
   if (target && target.current > 0) {    
     characterStore.setWarbandStat(event.stat, +target.current - 1)

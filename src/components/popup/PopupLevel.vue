@@ -20,6 +20,8 @@
 </template>
 
 <script setup lang="ts">
+import { ref, computed } from 'vue'
+
 import { useCharacterStore } from '../../store/character'
 import PopupLayout from './PopupLayout.vue'
 import UiInput from '../ui/UiInput.vue'
@@ -27,31 +29,31 @@ import { levelUp } from '../../composables/levelUp'
 
 const characterStore = useCharacterStore()
 
-let experience = $ref(0)
+let experience = ref(0)
 
 const setExperience = (eventTraget: HTMLInputElement) => {
   if (+eventTraget.value === 0) {
-    experience = 0
+    experience.value = 0
   } else {
-    experience = +eventTraget.value
+    experience.value = +eventTraget.value
   }
 }
 
-const level = $computed(() => {
+const level = computed(() => {
   let nextLevel = 1
 
-  if (+characterStore.exp + +experience >= 1000) nextLevel = 2
-  if (+characterStore.exp + +experience >= 3000) nextLevel = 3
-  if (+characterStore.exp + +experience >= 6000) nextLevel = 4 + Math.floor(((+characterStore.exp + +experience) - 6000) / 5000)
+  if (+characterStore.exp + +experience.value >= 1000) nextLevel = 2
+  if (+characterStore.exp + +experience.value >= 3000) nextLevel = 3
+  if (+characterStore.exp + +experience.value >= 6000) nextLevel = 4 + Math.floor(((+characterStore.exp + +experience.value) - 6000) / 5000)
   
   return (nextLevel - characterStore.level)
 })
 
 const addExperience = (exp: number) => {
-  if (experience > 0) {
-    if (level) levelUp(level)
+  if (experience.value > 0) {
+    if (level.value) levelUp(level.value)
     characterStore.addExperience(+exp)
-    experience = 0
+    experience.value = 0
   }
 }
 </script>
