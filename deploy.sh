@@ -11,6 +11,6 @@ git checkout -b main
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:BrightsDays/mausritter-online-sheet.git main:gh-pages
+git push -f git@github.com:spratt/mausritter-online-sheet.git main:gh-pages
 
 cd - 

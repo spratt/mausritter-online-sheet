@@ -367,6 +367,118 @@
       "type": "Utility",
       "group": "items",
       "used": 0
+    },
+    {
+      "title": "Spring Ladder",
+      "stat": "",
+      "image": "",
+      "type": "Utility",
+      "group": "items",
+      "used": 0
+    },
+    {
+      "title": "Memory Candle",
+      "stat": "",
+      "image": "",
+      "type": "Utility",
+      "group": "items",
+      "used": 0
+    },
+    {
+      "title": "Spider Eyes",
+      "stat": "",
+      "image": "",
+      "type": "Utility",
+      "group": "items",
+      "used": 0
+    },
+    {
+      "title": "Clockmakers Tools",
+      "stat": "",
+      "image": "",
+      "type": "Utility",
+      "group": "items",
+      "used": 0
+    },
+    {
+      "title": "Automata Blueprints",
+      "stat": "",
+      "image": "",
+      "type": "Utility",
+      "group": "items",
+      "used": 0
+    },
+    {
+      "title": "Glowing Liquid",
+      "stat": "",
+      "image": "",
+      "type": "Utility",
+      "group": "items",
+      "used": 0
+    },
+    {
+      "title": "Glass Tuning Fork",
+      "stat": "",
+      "image": "",
+      "type": "Utility",
+      "group": "items",
+      "used": 0
+    },
+    {
+      "title": "Silver Key",
+      "stat": "",
+      "image": "",
+      "type": "Utility",
+      "group": "items",
+      "used": 0
+    },
+    {
+      "title": "Copper Scissors",
+      "stat": "",
+      "image": "",
+      "type": "Utility",
+      "group": "items",
+      "used": 0
+    },
+    {
+      "title": "Golden Acorn",
+      "stat": "",
+      "image": "",
+      "type": "Utility",
+      "group": "items",
+      "used": 0
+    },
+    {
+      "title": "Hour Hand",
+      "stat": "",
+      "image": "",
+      "type": "Utility",
+      "group": "items",
+      "used": 0
+    },
+    {
+      "title": "Minute Hand",
+      "stat": "",
+      "image": "",
+      "type": "Utility",
+      "group": "items",
+      "used": 0
+    },
+    {
+      "title": "Clockwork Effigy",
+      "stat": "",
+      "image": "",
+      "type": "Utility",
+      "group": "items",
+      "used": 0
+    },
+    {
+      "title": "Gravity Hourglass",
+      "stat": "",
+      "image": "",
+      "type": "Utility",
+      "group": "items",
+      "used": 0
     }
   ]
 }

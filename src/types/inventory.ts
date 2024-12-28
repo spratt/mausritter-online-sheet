@@ -1,13 +1,13 @@
 import { CardCell } from './cards'
 
 export interface Condition {
-  title: string
-  description: string
-  clear: string
-  group: 'conditions'
-  stickyWeb: boolean?
-  titleSize: string?
-  descriptionSize:: string?
+  title: string;
+  description: string;
+  clear: string;
+  group: 'conditions';
+  stickyWeb?: boolean;
+  titleSize?: string;
+  descriptionSize?: string;
 }
 
 export interface Item {
@@ -70,4 +70,4 @@ export type ItemType =
   'Heavy utility' |
   'Wide utility' |
   'Height utility' |
-  'Big utility'
+  'Big utility';
