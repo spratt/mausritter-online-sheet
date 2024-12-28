@@ -110,7 +110,8 @@ const addItem = () => {
     }
 
     switch (item.value.type) {
-      case 'Light weapon' || 'Light ranged':
+      case 'Light weapon':
+      case 'Light ranged':
         newItem.stat = 'd6'
         break
       case 'Medium weapon':
@@ -122,7 +123,8 @@ const addItem = () => {
       case 'Heavy ranged':
         newItem.stat = 'd8'
         break
-      case 'Light armor' || 'Heavy armor':
+      case 'Light armor':
+      case 'Heavy armor':
         newItem.stat = '1 def'
         break
     }
