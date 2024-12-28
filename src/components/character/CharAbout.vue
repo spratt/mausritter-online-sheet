@@ -10,7 +10,6 @@
           id="name"
           v-model="character.name"
           class="about-input__input"
-          readonly
         >
       </div>
       <div class="about__background about-input">
@@ -22,7 +21,6 @@
           id="background"
           v-model="character.background"
           class="about-input__input about-input__input--small"
-          readonly
         >
       </div>
     </div>
@@ -36,7 +34,6 @@
           id="birthsign"
           v-model="character.birthSign"
           class="details-input__input"
-          readonly
         >
       </div>
       <div class="details-input">
