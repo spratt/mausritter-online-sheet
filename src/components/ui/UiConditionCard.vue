@@ -4,10 +4,14 @@
     draggable="true"
     @dragstart="onDragging($event, condition as Card)"
   >
-    <span class="title">
+    <span class="title"
+          :style="condition.titleSize ? { 'font-size': condition.titleSize } : null"
+    >
       {{ condition.title }}
     </span>
-    <span class="description">
+    <span class="description"
+          :style="condition.descriptionSize ? { 'font-size': condition.descriptionSize } : null"
+    >
       {{ condition.description }}
     </span>
     <span class="clear">

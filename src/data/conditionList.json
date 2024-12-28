@@ -29,6 +29,30 @@
       "description": "Disadvantage on\nWIL saves",
       "clear": "After full rest",
       "group": "conditions"
+    },
+    {
+      "title": "Sticky Web",
+      "description": "Must be placed over an\n inventory item, if able.  That item cannot be used.",
+      "clear": "Clean for a Turn",
+      "group": "conditions",
+      "stickyWeb": true,
+      "descriptionSize": "1em"
+    },
+    {
+      "title": "Timesick (fast)",
+      "description": "Move very quickly, but consume rations and light sources twice as fast.",
+      "clear": "Next new moon (in real life, not game)",
+      "group": "conditions",
+      "titleSize": "1.9em",
+      "descriptionSize": "1em"
+    },
+    {
+      "title": "Timesick (slow)",
+      "description": "Move sluggishly, but\n consume rations and\n light sources half as fast.",
+      "clear": "Next new moon (in real life, not game)",
+      "group": "conditions",
+      "titleSize": "1.7em",
+      "descriptionSize": "1em"
     }
   ]
 }

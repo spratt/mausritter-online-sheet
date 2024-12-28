@@ -5,6 +5,9 @@ export interface Condition {
   description: string
   clear: string
   group: 'conditions'
+  stickyWeb: boolean?
+  titleSize: string?
+  descriptionSize:: string?
 }
 
 export interface Item {
