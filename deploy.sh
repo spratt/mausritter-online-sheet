@@ -1,3 +1,5 @@
+rm -rf dist
+
 set -e
 
 npm run build
