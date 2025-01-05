@@ -119,6 +119,46 @@
       "type": "Spell",
       "group": "items",
       "used": 0
+    },
+    {
+      "title": "Blinding Touch",
+      "stat": "",
+      "image": "",
+      "type": "Spell",
+      "group": "items",
+      "used": 0
+    },
+    {
+      "title": "Shadow Tendrils",
+      "stat": "",
+      "image": "",
+      "type": "Spell",
+      "group": "items",
+      "used": 0
+    },
+    {
+      "title": "Strength",
+      "stat": "",
+      "image": "",
+      "type": "Spell",
+      "group": "items",
+      "used": 0
+    },
+    {
+      "title": "Sweet Words",
+      "stat": "",
+      "image": "",
+      "type": "Spell",
+      "group": "items",
+      "used": 0
+    },
+    {
+      "title": "Undeath",
+      "stat": "",
+      "image": "",
+      "type": "Spell",
+      "group": "items",
+      "used": 0
     }
   ]
 }

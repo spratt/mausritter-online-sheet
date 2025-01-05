@@ -127,6 +127,54 @@
       "type": "Ammunition",
       "group": "items",
       "used": 0
+    },
+    {
+      "title": "Gold Letter Opener",
+      "stat": "d10",
+      "image": "",
+      "type": "Heavy",
+      "group": "items",
+      "used": 0
+    },
+    {
+      "title": "Rusty Cleaver",
+      "stat": "d6/d8",
+      "image": "",
+      "type": "Medium",
+      "group": "items",
+      "used": 0
+    },
+    {
+      "title": "Nunchaku",
+      "stat": "d6",
+      "image": "",
+      "type": "Light",
+      "group": "items",
+      "used": 0
+    },
+    {
+      "title": "Snake Fang",
+      "stat": "d6/d8",
+      "image": "",
+      "type": "Medium",
+      "group": "items",
+      "used": 0
+    },
+    {
+      "title": "Sai",
+      "stat": "d6",
+      "image": "",
+      "type": "Light",
+      "group": "items",
+      "used": 0
+    },
+    {
+      "title": "Katana",
+      "stat": "d6/d8",
+      "image": "",
+      "type": "Medium",
+      "group": "items",
+      "used": 0
     }
   ]
 }

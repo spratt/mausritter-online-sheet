@@ -53,6 +53,25 @@
       "group": "conditions",
       "titleSize": "1.7em",
       "descriptionSize": "1em"
+    },
+    {
+      "title": "Blind",
+      "description": "Cannot see.  All attacks Impaired.",
+      "clear": "Tears of a Faerie",
+      "group": "conditions"
+    },
+    {
+      "title": "Mellow",
+      "description": "Disadvantage on WIL Saves.  Must pass WIL Save to take aggressive actions.",
+      "clear": "Long rest",
+      "group": "conditions",
+      "descriptionSize": "1em"
+    },
+    {
+      "title": "Diseased",
+      "description": "HP cannot be raised above 1.",
+      "clear": "STR Save after Long Rest",
+      "group": "conditions"
     }
   ]
 }

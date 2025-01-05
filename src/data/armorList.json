@@ -15,6 +15,22 @@
       "type": "Heavy armor",
       "group": "items",
       "used": 0
+    },
+    {
+      "title": "Bottle Cap Armour",
+      "stat": "1 def",
+      "image": "",
+      "type": "Heavy armor",
+      "group": "items",
+      "used": 0
+    },
+    {
+      "title": "Hourglass Shield",
+      "stat": "",
+      "image": "",
+      "type": "Shield",
+      "group": "items",
+      "used": 0
     }
   ]
 }
